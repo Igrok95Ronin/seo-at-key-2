@@ -1,0 +1,25 @@
+.locksmith {
+    margin-top: 50px;
+}
+.locksmith__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.locksmith__left {
+}
+.locksmith__title {
+    @include h2Title;
+}
+.locksmith__txt {
+    line-height: 20px;
+}
+.locksmith__right {
+    max-width: 100%;
+    max-height: 100%;
+}
+.locksmith__img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+}
