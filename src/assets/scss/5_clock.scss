@@ -1,0 +1,24 @@
+.clock {
+    margin-top: 50px;
+}
+.clock__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.clock__left {
+}
+.clock__title {
+    @include h2Title;
+}
+.clock__txt {
+    line-height: 20px;
+}
+.clock__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock__img {
+    max-width: 40%;
+}
