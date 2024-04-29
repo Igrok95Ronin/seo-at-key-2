@@ -1,0 +1,22 @@
+.aufsperrdienst {
+    margin-top: 50px;
+}
+.aufsperrdienst__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.aufsperrdienst__left {
+}
+.aufsperrdienst__title {
+    @include h2Title;
+}
+.aufsperrdienst__txt {
+    line-height: 20px;
+}
+.aufsperrdienst__right {
+    background-color: var(--mainColor);
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
