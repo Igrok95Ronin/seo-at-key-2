@@ -1,0 +1,31 @@
+.keyService {
+    margin-top: 50px;
+}
+.keyService__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.keyService__left {
+    max-width: 100%;
+    max-height: 100%;
+}
+.keyService__img {
+    width: 100%;
+    height: 100%;
+}
+.keyService__right {
+}
+.keyService__title {
+    @include h2Title;
+}
+.keyService__txt {
+    line-height: 20px;
+}
+.keyService__tellWrp {
+    text-align: center;
+    margin-top: 20px;
+}
+.keyService__tell {
+    @include btn2;
+}
