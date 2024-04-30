@@ -1,0 +1,18 @@
+.titleP {
+    margin-top: 50px;
+}
+.titleP__box {
+}
+.titleP__title {
+    @include h2Title;
+}
+.titleP__txt {
+    line-height: 20px;
+}
+.titleP__inner {
+    margin-top: 50px;
+}
+.titleP__subTitle {
+    @include h2Title;
+    font-size: clamp(18px, 5vw, 20px);
+}
