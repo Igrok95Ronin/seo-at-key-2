@@ -1,0 +1,20 @@
+.colorBlock {
+    margin-top: 50px;
+}
+.colorBlock__box {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: var(--mainColor);
+    color: #fff;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+.colorBlock__wrp {
+}
+.colorBlock__title {
+    @include h2Title;
+}
+.colorBlock__txt {
+    line-height: 20px;
+}
