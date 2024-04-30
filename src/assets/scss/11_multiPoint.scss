@@ -1,0 +1,24 @@
+.multiPoint {
+    margin-top: 50px;
+}
+.multiPoint__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.multiPoint__left {
+}
+.multiPoint__title {
+    @include h2Title;
+}
+.multiPoint__txt {
+    line-height: 20px;
+}
+.multiPoint__right {
+    max-width: 100%;
+    max-height: 100%;
+}
+.multiPoint__img {
+    width: 100%;
+    height: 100%;
+}

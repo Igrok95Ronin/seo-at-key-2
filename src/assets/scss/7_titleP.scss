@@ -16,3 +16,10 @@
     @include h2Title;
     font-size: clamp(18px, 5vw, 20px);
 }
+.titleP__inner2 {
+    text-align: center;
+    margin-top: 30px;
+}
+.titleP__tel {
+    @include btn2;
+}
