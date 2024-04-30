@@ -1,0 +1,52 @@
+.keyEmergencyService {
+    margin-top: 50px;
+}
+.keyEmergencyService__box {
+}
+.keyEmergencyService__title {
+    @include h2Title;
+}
+.keyEmergencyService__wrp {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.keyEmergencyService__inner {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+.keyEmergencyService__imgWrp {
+    max-width: 100%;
+    max-height: 100%;
+}
+.keyEmergencyService__img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.keyEmergencyService__subTitle {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.keyEmergencyService__txt {
+    line-height: 20px;
+}
+.keyEmergencyService__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.keyEmergencyService__link {
+    color: var(--mainColor);
+    font-weight: 700;
+}
+.keyEmergencyService__tel {
+    @include btn;
+}
