@@ -1,0 +1,15 @@
+.emergencyLocksmithService {
+    margin-top: 50px;
+}
+.emergencyLocksmithService__box {
+    background-color: var(--mainColor);
+    color: #fff;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+.emergencyLocksmithService__title {
+    @include h2Title;
+}
+.emergencyLocksmithService__txt {
+    line-height: 20px;
+}
