@@ -1,0 +1,17 @@
+.paymentMethod {
+    margin-top: 50px;
+}
+.paymentMethod__box {
+}
+.paymentMethod__title {
+    @include h2Title;
+}
+.paymentMethod__inner {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+}
+.paymentMethod__img {
+    width: 100%;
+    height: 100%;
+}
