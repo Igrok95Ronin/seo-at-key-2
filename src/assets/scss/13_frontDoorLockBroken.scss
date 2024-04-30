@@ -1,0 +1,30 @@
+.frontDoorLockBroken {
+    margin-top: 50px;
+}
+.frontDoorLockBroken__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    background-color: var(--mainColor);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px
+}
+.frontDoorLockBroken__left {
+}
+.frontDoorLockBroken__title {
+    @include h2Title;
+}
+.frontDoorLockBroken__txt {
+    line-height: 20px;
+}
+.frontDoorLockBroken__right {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frontDoorLockBroken__tel {
+    @include btn2;
+    border: 1px solid #fff;
+}
