@@ -1,3 +1,50 @@
+@media(max-width: 820px) {
+    .price__wrapper {
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
+@media(max-width: 767px) {
+    .header__box,
+    .price__wrapper,
+    .aufsperrdienst__box,
+    .keyService__box,
+    .callCenter__box,
+    .keyEmergencyService__wrp,
+    .montage__box,
+    .defaultPages__wrp,
+    .defaultPages2__box {
+        grid-template-columns: 1fr;
+    }
+    .frontDoorLockBroken__box{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .header__btnTelWrp{
+        text-align: center;
+    }
+    .locksmith__box,
+    .clock__box,
+    .locksmithService__box,
+    .multiPoint__box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .paymentMethod__inner {
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .paymentMethod__img {
+        width: 100%;
+        height: 100%;
+        max-width: 200px;
+    }
+    .keyEmergencyService__img {
+        height: 300px;
+    }
+}
 @media(max-width: 500px) {
     .btnFixedD {
         display: none;
